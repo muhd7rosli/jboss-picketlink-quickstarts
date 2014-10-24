@@ -19,8 +19,6 @@ package org.jboss.as.quickstarts.picketlink.authentication.facebook;
 import javax.enterprise.context.RequestScoped;
 import javax.enterprise.inject.Produces;
 import javax.faces.context.FacesContext;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 /**
  * This class uses CDI to alias Java EE resources, such as the {@link FacesContext}, to CDI beans

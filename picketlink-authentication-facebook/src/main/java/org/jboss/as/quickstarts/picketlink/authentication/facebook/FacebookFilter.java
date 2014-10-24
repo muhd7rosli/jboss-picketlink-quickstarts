@@ -18,13 +18,10 @@
 package org.jboss.as.quickstarts.picketlink.authentication.facebook;
 
 import org.picketlink.Identity;
-import org.picketlink.social.auth.FacebookAuthenticator;
-import org.picketlink.social.auth.conf.FacebookConfiguration;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
-import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

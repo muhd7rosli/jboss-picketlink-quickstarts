@@ -39,6 +39,7 @@
 
     <modules>
         <module>picketlink-authentication-form</module>
+        <module>picketlink-authentication-form-terms</module>
         <module>picketlink-authentication-http-basic</module>
         <module>picketlink-authentication-http-client-cert</module>
         <module>picketlink-authentication-http-digest</module>

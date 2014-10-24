@@ -17,7 +17,6 @@
  */
 package org.jboss.as.quickstarts.picketlink.authentication.facebook;
 
-import org.picketlink.annotations.PicketLink;
 import org.picketlink.social.auth.conf.FacebookConfiguration;
 
 import javax.enterprise.context.ApplicationScoped;
