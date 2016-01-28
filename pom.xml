@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.picketlink.quickstarts</groupId>
     <artifactId>picketlink-quickstarts-parent</artifactId>
-    <version>2.7.2.Final-SNAPSHOT</version>
+    <version>2.7.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -39,7 +39,7 @@
 
     <modules>
         <module>picketlink-authentication-form</module>
-        <module>picketlink-authentication-form-with-jsf</module>
+        <module>picketlink-authentication-form-terms</module>
         <module>picketlink-authentication-http-basic</module>
         <module>picketlink-authentication-http-client-cert</module>
         <module>picketlink-authentication-http-digest</module>
@@ -49,8 +49,6 @@
         <module>picketlink-authentication-recaptcha</module>
         <module>picketlink-authentication-rs-endpoint</module>
         <module>picketlink-authentication-two-factor</module>
-        <module>picketlink-authentication-security-level</module>
-        <module>picketlink-levels-complex</module>
         <module>picketlink-authorization-idm-jpa</module>
         <module>picketlink-authorization-idm-ldap</module>
         <module>picketlink-authorization-rs-rbac</module>
@@ -59,7 +57,6 @@
         <module>picketlink-idm-custom-identity-model</module>
         <module>picketlink-http-servlet-integration</module>
         <module>picketlink-authorization-acl</module>
-        <module>picketlink-events</module>
 
         <module>picketlink-federation-saml-idp-basic</module>
         <module>picketlink-federation-saml-idp-with-signature</module>
@@ -69,10 +66,8 @@
         <module>picketlink-federation-saml-idp-servlet-filter</module>
         <module>picketlink-federation-saml-sp-post-basic</module>
         <module>picketlink-federation-saml-sp-post-with-signature</module>
-        <module>picketlink-federation-saml-sp-idp-chooser</module>
         <module>picketlink-federation-saml-sp-post-with-ssl</module>
         <module>picketlink-federation-saml-sp-with-encryption</module>
-        <module>picketlink-federation-saml-sp-with-servlet-filter</module>
         <module>picketlink-federation-saml-sp-with-metadata</module>
         <module>picketlink-federation-saml-sp-redirect-basic</module>
         <module>picketlink-federation-saml-sp-redirect-with-signature</module>
